@@ -1,0 +1,112 @@
+                                 ****** BASIC LINUX COMMANDS ********
+                                             ****man******
+              #######  man command(man command ni apn kontya pn command chi detail kadu shakto)#######  
+
+                           
+
+1.***** cat command *****
+   1. cat filename.txt (file mdhi ky lihun (cunten) ahe te show krte )
+   2. cat -n filename.txt  and cat --number filename.txt (file mdhi kiti line ahe te pn mhit padte)
+   3.
+   
+2.******ls command ******
+  1.ls (file kiti ahe te mhit hote kontya folder (directry) mdhi aho te mhit hote)
+  1.ls -lart and  ls -l(ls -lart ni folder file chi purn detail yeun jate file la folder la ky ky pramition ahe te mhit houn jate )
+
+3******* pwd ******
+  1.pwd (current working directry   he apn kontya file mdhi kontya folder mdhi aho te mhit hote )  
+
+4.********** cd **************
+  1.cd foldername (cd ni apn kontya pn file folder mdhi jau shakto )
+  2.cd.. (ni apn 1 vela back yeto)
+  3cd (all back yeun jato)
+
+5. ****** mkdir *****
+  1.mkdir foldername (mkdir ni folder(directry) creat hote)
+
+6.***** rmdir *****
+  1.rmdir filename (rmdir ni folder file delete(remove) hote)
+
+7.****** ncal ******
+  1.ncal (date mhit padte )
+
+8.****** sudo apt install command *******
+   1.sudo apt install command (sudo apt install command intall krachi ahe tya command ch name)  
+
+9.****** cp *********
+  1.cp filename filename2 (cp filename filename2S) (cp ni ek file madhala dusrya file mdhi copy krta    yete )
+   
+
+10.***** vim ******* 
+  1. vim filename.py ( vim ni file creat hote techyat kahi pn lihta yete )
+  2. vim file creat kratani adr gelya var pahile i daba lagte kahi liha sathi  exit sathi Esc la dabun :wq daba              lagte 
+  3.vim filename.txt (vim filename file mdhi kahi change nhi krach ahe ani baher nigach ahe tr ESC and :q! as krun        baher nigu shkato)
+
+11.*****mv*****
+ 1.mv filename filename2 ( mv filename change krta yete)
+ 2.mv filename foldername/filename (mv file la dusrya folder(directry)mdhi pn thakta yete (mv filename foldername/filename )) 
+ 3.mv (ni folder name change krta yete (mv fooldername nemfoldername))
+
+12. ******rm******
+  1.rm filename (rm ni apn file delete kru shakto)
+  2.rm -r foldername (rm -r ni folder delete(remove) krta yete )
+  
+13. *****touch*****
+   1.touch filename.txt (touch ni khali(mt file) file creat hote)
+
+14.****** chmod *********
+ 1.chmod filename and foldername (chmod ni apn file folder chi pramition change kru shakto jas ki (read write  execute) 
+ 2. chmod mg no dyach (read 4) (write 2) (execute 1)
+ 3.chmod 421  filename foldername  dyach pramition change krnya sathi 
+  
+15.***** whoiam*****
+  1.whoiam (whoiam ni apn kontya root ni login aho te mhit hote )
+16 ***** locate******
+   1.locate file name (locate filename file kut ahe te mhit krta yete )
+17. ****** head tail*********
+    1.head filename (head ni file madhle pahile 10 lin dakvnar)
+    2.tail filename ( tail ni file madhle last che 10 lin dakvnar) 
+    3.tail -2f filename (tail -2f file name as kel ki last chi 2 lin disnar as kiti pn lin bagu shakto jas ki  -4f -5f as kiti pn lin )
+18. ****gzip gunzip****
+   1.gzip filename ( gzip file la kel ki space(compressing a file) kmi lagte )
+   2.gunzip filename ( gunzip file pahile sarkh krach asel tr gunzip krun te pahile sarkhi(decompressing a file) houn jate )
+
+19.***** ping *****
+   1.ping servername jas ki www.google.com ( ping command ni apn mhit kru shakto ki server barabr chalt ahe ki nhi (packet 0% dakvla ki       barabr chalt ahe ))
+   2. demo ping www.google.com and ping www.youtube.com (as je server ahe tya server ch thakach no kiva je kahi asel te )
+   3. ctrl + c ni apn tela stop kru shakto 
+
+20.**** passwd ****
+    1. passwd username (passwd username as krun apn user cha password change kru shkato )
+    2. su ( su  ni apn user change kru shakto jya user cha password change krach ahe tya user la su ni login krun mg change krach)
+    3. su ( su root ni login zal ki apn konach pn passwd change kru shakto)
+21. **** su *****
+  1. su (su ni apn user change kru shakto kontya pn user la login krach asel aplya tr)
+  2. su username ( su username as krun apn change houn jato )
+
+22. ****ps *****
+  1.ps ( ps ni apn procces mhit kru shakto konti pn )
+
+23.*****useradd***
+   1.useradd username (useradd username as krun user creat kru shakto )
+   2.sudo su ni login kra lagte agodr tevach user creat hote 
+   3.userdel username ( userdel ni user delete krata yete )
+   4.userdel -r username (userdel -r username as krun kel ki techyale file folder pn delete houn jate )
+   5.userdel -f username (userdel -f username as kel ki te user kute pn login asel tri pn delete houn jate )
+   6. user creat zal ahe ka check kra sathi (id username) 
+  
+24.****** kill *****
+  1.kill proces id ( kill procesid kontya pn proces la kill mhnje delete krach asel tr kill command kami yete )
+
+25.**** 
+
+                           3.ssh
+                           4.scp
+                           6.ifconfig
+                           7.netstat
+                           8.route
+                           11.systemctl  ****
+                          12.service
+                          15.echo
+                          17.short
+                          
